@@ -1,33 +1,33 @@
 variable "access_key" {
-  type = string
+  type        = string
   description = "AWS access key"
 }
 
 variable "secret_key" {
-  type = string
+  type        = string
   description = "AWS secret key"
 }
 
 variable "region" {
-  type = string
-  default = "us-east-1"
+  type        = string
+  default     = "us-east-1"
   description = "AWS region"
 }
 
 variable "instance_type" {
-  type = string
-  default = "t3.micro"
+  type        = string
+  default     = "t3.micro"
   description = "EC2 instance type"
 }
 
 variable "key_name" {
-  type = string
-  default = "blackwell"
+  type        = string
+  default     = "blackwell"
   description = "EC key pair name"
 }
 
 variable "name_instance" {
-  type = string
-  default = "ec2-instance-example"
+  type        = string
+  default     = "ec2-instance-example"
   description = "Name of the EC2 instance"
 }
