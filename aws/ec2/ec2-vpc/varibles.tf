@@ -26,8 +26,8 @@ variable "key_name" {
   description = "EC key pair name"
 }
 
-variable "name_instance" {
+variable "server_name" {
   type        = string
-  default     = "ec2-instance-example"
-  description = "Name of the EC2 instance"
+  default     = "demo-server"
+  description = "Name of the server instance"
 }
